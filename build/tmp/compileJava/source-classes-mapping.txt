@@ -1,0 +1,44 @@
+questions/Answer.java
+ questions.Answer
+questions/AnswerFinishPurchase.java
+ questions.AnswerFinishPurchase
+userinterface/SearchInventoryPage.java
+ userinterface.SearchInventoryPage
+userinterface/ShoppingCartPage.java
+ userinterface.ShoppingCartPage
+tasks/SearchItems.java
+ tasks.SearchItems
+userinterface/SwagLabPage.java
+ userinterface.SwagLabPage
+tasks/CheckOutSteps.java
+ tasks.CheckOutSteps
+userinterface/CartPage.java
+ userinterface.CartPage
+tasks/AddToCart.java
+ tasks.AddToCart
+tasks/OpenUp.java
+ tasks.OpenUp
+tasks/FinishPurchase.java
+ tasks.FinishPurchase
+tasks/CheckOut.java
+ tasks.CheckOut
+userinterface/CheckOutPage.java
+ userinterface.CheckOutPage
+tasks/Wait.java
+ tasks.Wait
+userinterface/CheckOutSecondStepPage.java
+ userinterface.CheckOutSecondStepPage
+userinterface/CheckOutComplete.java
+ userinterface.CheckOutComplete
+tasks/OpenCart.java
+ tasks.OpenCart
+tasks/Login.java
+ tasks.Login
+userinterface/SwagLabsLoginPage.java
+ userinterface.SwagLabsLoginPage
+tasks/LoginLocked.java
+ tasks.LoginLocked
+questions/AnswerLoginLocked.java
+ questions.AnswerLoginLocked
+userinterface/LoginLockedPage.java
+ userinterface.LoginLockedPage

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Academy Choucair" skipped="0" tests="1" time="18.79" timestamp="2022-03-31 02:49:24"><testcase name="search for automation course"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
+tasks.SearchItems.performAs(Buscar.java:31)&#13;
+stepdefinitions.SwagLabStepDefinition.hesearchAFriend(ChoucairAcademyStepDefinition.java:33)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

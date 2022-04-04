@@ -1,0 +1,6 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥¸ø¸ùÿÿÿÿ
+K
+java:S1905")Remove this unnecessary cast to "Target".(¬è”²ùÿÿÿÿ8§·ÉŒÿ/
+X
+java:S1128";Remove this unused import 'userinterface.CheckOutComplete'.(Â¹®8¦·ÍŒÿ/

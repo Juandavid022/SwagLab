@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sauce Lab" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-04-03T23:20:05" hostname="CHMEP6X07XS2" time="25.35">
+  <properties/>
+  <testcase name="search for backpack" classname="Sauce Lab" time="8.915"/>
+  <testcase name="make purchase" classname="Sauce Lab" time="11.441"/>
+  <testcase name="Login with user locked" classname="Sauce Lab" time="4.975"/>
+  <system-out><![CDATA[    ?[32mGiven ?[0m?[32mthat Juan wants login in SauceLab?[0m             ?[90m# SwagLabStepDefinition.thatJuanWantsLoginInSauceLab()?[0m
+    ?[32mWhen ?[0m?[32mhe click a ?[0m?[32m?[1mSauce Labs Backpack?[0m?[32m change the page?[0m ?[90m# SwagLabStepDefinition.heSearchABackpack(String)?[0m
+    ?[32mThen ?[0m?[32mhe finds the backpack ?[0m?[32m?[1mSauce Labs Backpack?[0m      ?[90m# SwagLabStepDefinition.heFindsTheBackpack(String)?[0m
+    ?[32mGiven ?[0m?[32mthat Juan wants login in SauceLab?[0m                                           ?[90m# SwagLabStepDefinition.thatJuanWantsLoginInSauceLab()?[0m
+    ?[32mWhen ?[0m?[32mclick of button add to cart of backpack?[0m                                      ?[90m# SwagLabStepDefinition.clickOfButtonAddToCartOfBackpack()?[0m
+    ?[32mAnd ?[0m?[32mclick in the cart button?[0m                                                      ?[90m# SwagLabStepDefinition.clickInTheCartbutton()?[0m
+    ?[32mAnd ?[0m?[32mclick in checkout?[0m                                                             ?[90m# SwagLabStepDefinition.clickInCheckout()?[0m
+    ?[32mAnd ?[0m?[32minput name ?[0m?[32m?[1mJuan?[0m?[32m last name ?[0m?[32m?[1mGarzon?[0m?[32m and postal code ?[0m?[32m?[1m055411?[0m?[32m and click in continue?[0m ?[90m# SwagLabStepDefinition.inputNameLastNameAndPostalCode(String,String,String)?[0m
+    ?[32mAnd ?[0m?[32mclick in finish?[0m                                                               ?[90m# SwagLabStepDefinition.clickInFinish()?[0m
+    ?[32mThen ?[0m?[32mmust validate the text ?[0m?[32m?[1mTHANK YOU FOR YOUR ORDER?[0m                              ?[90m# SwagLabStepDefinition.mustValidateTheText(String)?[0m
+    ?[32mGiven ?[0m?[32mthat Juan wants login in SauceLab with credential locked?[0m                                     ?[90m# SwagLabStepDefinition.thatJuanWantsLoginInSauceLabWithCredentialLocked()?[0m
+    ?[32mThen ?[0m?[32mmust report has been locked with the text ?[0m?[32m?[1mEpic sadface: Sorry, this user has been locked out.?[0m ?[90m# SwagLabStepDefinition.mustreporthasbeenlocked(String)?[0m
+]]></system-out>
+  <system-err><![CDATA[abr 03, 2022 6:20:06 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 99.0.4844.51 (d537ec02474b5afe23684e7963d538896c63ac77-refs/branch-heads/4844@{#875}) on port 35242
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1649028010.121][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+abr 03, 2022 6:20:10 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: search for backpack
+----------------------------------------------------------------------------
+abr 03, 2022 6:20:14 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[1649028017.481][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+abr 03, 2022 6:20:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: make purchase
+----------------------------------------------------------------------------
+abr 03, 2022 6:20:26 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+[1649028028.941][WARNING]: This version of ChromeDriver has not been tested with Chrome version 100.
+abr 03, 2022 6:20:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Login with user locked
+----------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
